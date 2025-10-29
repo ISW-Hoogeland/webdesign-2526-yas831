@@ -35,8 +35,15 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
-body {
+:root {
+    --color1: #79a3f7;
+    --color2: #ffffff;
+    --color3: #000000;
+   
+}
 
+body {
+background-color: #79a3f7;
 }
 header {
 
@@ -48,5 +55,5 @@ main [
 
 ]
 footer {
-   
+
 }
