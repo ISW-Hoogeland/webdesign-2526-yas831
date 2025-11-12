@@ -39,21 +39,30 @@
     --color1: #79a3f7;
     --color2: #ffffff;
     --color3: #000000;
-   
+   --color4: #d2f8ff; 
 }
 
-body {
+body{
+ display: grid;
+ grid-template-areas: ;
 background-color: #79a3f7;
 }
-header {
+header{
+   grid-area: header;
 
 }
-nav {
+nav{
 
 }
-main [
+main{
 
-]
-footer {
+}
+footer{
 
+}
+
+h1{
+   text-align: center;
+   color: var(--color4);
+   font-size: 45px;
 }
