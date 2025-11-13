@@ -39,7 +39,8 @@
     --color1: #79a3f7;
     --color2: #ffffff;
     --color3: #000000;
-   --color4: #d2f8ff; 
+   --color4: #d2f8ff;
+   --color5: #0070cb; 
 }
 
 body{
@@ -54,7 +55,8 @@ body{
 }
 header{
    grid-area: header;
-
+   background-color: var(--color5);
+   border-radius: 30px;
 }
 nav{
  grid-area: nav;
@@ -69,8 +71,10 @@ grid-area: footer;
 h1{
    text-align: center;
    color: var(--color4);
-   font-size: 45px;
+   font-size: 35px;
    font-family: "Oswald", sans-serif;
+   font-weight: 700;
+   font-weight: bolder;
 }
 
 h2{
