@@ -41,16 +41,17 @@
     --color3: #000000;
    --color4: #d2f8ff;
    --color5: #0070cb; 
+   --color6: #020a77;
 }
 
 body{
  display: grid;
  grid-template-areas:
- "header"
- "nav"
- "main"
- "footer";
- grid-template-rows: 100px 60px 1fr 60px;
+ "header header"
+ "main nav"
+ "footer footer";
+ grid-template-rows: 100px 1fr 60px;
+ grid-template-columns: 3fr 1fr;
  background-color: #79a3f7;
 }
 header{
@@ -60,9 +61,26 @@ header{
 }
 nav{
  grid-area: nav;
+ background-color: var(--color4);
 }
+
+nav ul {
+list-style: none;
+}
+
+nav a {
+   text-decoration: none;
+   color: var(--color6);
+}
+
+nav ul li {
+   margin-top: 80px;
+}
+
+
 main{
 grid-area: main;
+background-color: var(--);
 }
 footer{
 grid-area: footer;
@@ -88,10 +106,13 @@ h3{
    text-align: start;
    color: var(--color4);
    font-size: 20px;
+ 
 }
 
 h4 {
    text-align: start;
    color: var(--color4);
    font-size: 20px;
+   background-color: var(--colo6);
 }
+
