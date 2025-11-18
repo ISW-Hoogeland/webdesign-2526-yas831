@@ -118,6 +118,7 @@ h4 {
 .Afbeeldingen {
    display: flex;
    justify-content: center;
+   gap: 100px;
 }
 p { text-align: center;
 color: #ffffff;
