@@ -115,4 +115,14 @@ h4 {
    font-size: 20px;
    background-color: var(--colo6);
 }
+.Afbeeldingen {
+   display: flex;
+   justify-content: center;
+}
+p { text-align: center;
+color: #ffffff;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 500;
+}
 
